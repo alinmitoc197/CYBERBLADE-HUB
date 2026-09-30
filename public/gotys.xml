@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CATALOGO>
+  <GOTYS>
+    <NOMBRE>Clair Obscur: Expedition 33</NOMBRE>
+    <YEAR>2025</YEAR>
+  </GOTYS>
+
+  <GOTYS>
+    <NOMBRE>Astro Bot</NOMBRE>
+    <YEAR>2024</YEAR>
+  </GOTYS>
+
+  <GOTYS>
+    <NOMBRE>Baldur’s Gate 3</NOMBRE>
+    <YEAR>2023</YEAR>
+  </GOTYS>
+
+
+  <GOTYS>
+    <NOMBRE>Elden Ring</NOMBRE>
+    <YEAR>2022</YEAR>
+  </GOTYS>
+
+  <GOTYS>
+    <NOMBRE>It Takes Two</NOMBRE>
+    <YEAR>2021</YEAR>
+  </GOTYS>
+
+  <GOTYS>
+    <NOMBRE>The Last of Us Parte II</NOMBRE>
+    <YEAR>2020</YEAR>
+  </GOTYS>
+
+  <GOTYS>
+    <NOMBRE>Sekiro: Shadows Die Twiceg</NOMBRE>
+    <YEAR>2019</YEAR>
+  </GOTYS>
+
+  <GOTYS>
+    <NOMBRE>God of War</NOMBRE>
+    <YEAR>2018</YEAR>
+  </GOTYS>
+
+  <GOTYS>
+    <NOMBRE>The Legend of Zelda: Breath of the Wild</NOMBRE>
+    <YEAR>2017</YEAR>
+  </GOTYS>
+
+  <GOTYS>
+    <NOMBRE>Overwatch</NOMBRE>
+    <YEAR>2016</YEAR>
+  </GOTYS>
+</CATALOGO>

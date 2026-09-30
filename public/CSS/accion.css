@@ -1,0 +1,386 @@
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+.imagen-arriba {
+    background-image: url(/imagenes/3591775-3840x2160-desktop-hd-samurai-wallpaper-photo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 90%;
+    height: 35vh;
+    position: relative;
+    z-index: -333;
+    opacity: 0.45;
+}
+
+.imagen-arriba::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: linear-gradient(to left,
+        rgba(0, 0, 0, 0.623) 30%,
+        rgba(158, 14, 14, 0.712) 100%
+    );
+}
+
+@font-face {
+    font-family: Pixel;
+    src: url(/fonts/Pixellari.ttf);
+}
+
+@font-face {
+    font-family: BringRace;
+    src: url(/fonts/Bring\ Race.otf);
+}
+
+@font-face {
+    font-family: Minecraft;
+    src: url(/fonts/Minecraft.ttf);
+}
+
+.text1 {
+    color: #cc0022;
+    font-family: Pixel;
+    margin-left: 5vw;
+    font-size: 3vh;
+    margin-top: -22vh;
+}
+
+.text2 {
+    color: #ffffff;
+    font-family: BringRace;
+    margin-left: 5vw;
+    font-size: 8vh;
+    margin-top: -19vh;
+}
+
+.text3 {
+    color: rgba(255, 255, 255, 0.596);
+    margin-left: 10vh;
+    margin-top: -7vh;
+    font-family: Pixel;
+}
+
+.conten {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    gap: 2vw;
+    justify-content: center;
+    margin-top: 11vh;
+}
+
+.juegos {
+    width: 20vw;
+    height: 20vh;
+    border: 2px #cc0022 solid;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    overflow: hidden;
+}
+
+.juegos:hover {
+    border:4px red solid;
+}
+
+.imagen-juego1 {
+    width: 100%;
+    height: 100%;
+    background-image: url(/imagenes/devil.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.imagen-juego2 {
+    width: 100%;
+    height: 100%;
+    background-image: url(/imagenes/phamtom.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.imagen-juego3 {
+    width: 100%;
+    height: 100%;
+    background-image: url(/imagenes/hades2.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.imagen-juego4 {
+    width: 100%;
+    height: 100%;
+    background-image: url(/imagenes/ninjagaiden.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.imagen-juego5 {
+    width: 100%;
+    height: 100%;
+    background-image: url(/imagenes/wolverine.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.imagen-juego6 {
+    width: 100%;
+    height: 100%;
+    background-image: url(/imagenes/sekiro.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.imagen-juego7 {
+    width: 100%;
+    height: 100%;
+    background-image: url(/imagenes/wukong.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.imagen-juego8 {
+    width: 100%;
+    height: 100%;
+    background-image: url(/imagenes/doom.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.texto-cont {
+    width: 100%;
+    height: 100%;
+    padding: 0 0.8vw 0 0.8vw;
+    box-sizing: border-box;
+}
+
+.titulo {
+    color: rgb(221, 180, 68);
+    font-family: Minecraft;
+    font-size: 1.5vh;
+    text-align: center;
+    justify-content: center;
+}
+
+.texto-juego {
+    font-family: Pixel;
+    color: rgba(255, 255, 255, 0.596);
+    font-size: 1.2vh;
+}
+
+hr {
+    border-top: 2px solid #ff002b;
+}
+
+.abajo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nota {
+    width: 2.8vw;
+    height: 3vh;
+    border: #ff002b 1px solid;
+    background-color: rgba(83, 5, 5, 0.808);
+    color: #ff798f;
+    font-family: Minecraft;
+    display: flex;
+    align-items: center;     
+    justify-content: center; 
+    font-size: 0.9vw;
+}
+
+.precio {
+    width: 4.5vw;
+    height: 3vh;
+    border: #ff002b 1px solid;
+    background-color: rgba(83, 5, 5, 0.808);
+    color: rgb(221, 180, 68);
+    font-family: Minecraft;
+    font-size: 0.9vw;
+    display: flex;
+    align-items: center;     
+    justify-content: center; 
+}
+
+@media (max-width: 1024px) {
+
+    .imagen-arriba {
+        height: 40vh;
+    }
+
+    .text1 {
+        margin-top: -26vh;
+        font-size: 2vw;
+    }
+
+    .text3 {
+        margin-top: -8vh;
+        font-size: 1vw;
+    }
+
+    .conten {
+        grid-template-columns: repeat(2, 42vw);
+        gap: 3vw;
+        margin-top: 8vh;
+        justify-content: center;
+    }
+
+    .juegos {
+        width: 42vw;
+        height: 40vh;
+    }
+
+    .titulo {
+        font-size: 1.2vw;
+    }
+
+    .text2 {
+        font-size: 6vh;
+    }
+
+    .nota {
+        width: 6vw;
+        font-size: 1.2vw;
+        height: 5vh;
+        margin-top: -1vh;
+    }
+
+    .precio {
+        width: 10vw;
+        font-size: 1.2vw;
+        height: 5vh;
+        margin-top: -1vh;
+    }
+
+    .abajo {
+        padding: 0 0.5vw;
+    }
+    .texto-juego {
+        font-size: 1vw;
+    }
+}
+
+@media (max-width: 768px) {
+    .imagen-arriba {
+        height: 25vh;
+        background-size: cover;
+    }
+
+    .text1 {
+        font-size: 2.5vh;
+        margin-top: -1vh;
+    }
+
+    .text2 {
+        font-size: 5vh;
+        margin-top: -15vh;
+    }
+
+    .text3 {
+        font-size: 1.2vh;
+        margin-top: -5vh;
+        margin-left: 5vw;
+    }
+
+    .conten {
+        grid-template-columns: repeat(2, 42vw);
+        gap: 4vw;
+        margin-top: 6vh;
+        padding: 0;
+        justify-content: center;
+        justify-items: center;
+    }
+
+    .juegos {
+        width: 42vw;
+        height: 16vh;
+    }
+
+    .titulo {
+        font-size: 1.3vh;
+    }
+
+    .texto-juego {
+        font-size: 1vh;
+    }
+
+    .nota {
+        width: 8vw;
+        height: 2.5vh;
+        font-size: 1.8vw;
+    }
+
+    .precio {
+        width: 12vw;
+        height: 2.5vh;
+        font-size: 1.8vw;
+    }
+}
+
+@media (max-width: 480px) {
+    .imagen-arriba {
+        height: 30vh;
+    }
+
+    .text1 {
+        font-size: 2vh;
+        margin-top: -20vh;
+    }
+
+    .text2 {
+        font-size: 4vh;
+        margin-top: -15vh;
+    }
+
+    .text3 {
+        margin-top: -7vh;
+    }
+
+    .conten {
+        grid-template-columns: repeat(1, 90vw);
+        gap: 3vw;
+        margin-top: 4vh;
+        padding: 0;
+        justify-content: center;
+    }
+
+    .juegos {
+        width: 90vw;
+        height: 18vh;
+        margin-left: 1vw;
+    }
+
+    .titulo {
+        font-size: 1.6vh;
+    }
+
+    .texto-juego {
+        font-size: 1.1vh;
+    }
+
+    .nota {
+        width: 12vw;
+        height: 3vh;
+        font-size: 3vw;
+        margin-top: 1vh;
+    }
+
+    .precio {
+        width: 18vw;
+        height: 3vh;
+        font-size: 3vw;
+        margin-top: 1vh;
+    }
+
+    hr {
+        margin: 0.5vh 0;
+    }
+}

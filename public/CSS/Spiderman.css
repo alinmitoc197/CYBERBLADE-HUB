@@ -1,0 +1,786 @@
+.sec {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.fondo-dec {
+    position: absolute; inset: 0;
+    background:
+      radial-gradient(ellipse 80% 60% at 70% 40%, rgba(26,79,255,0.25) 0%, transparent 60%),
+      radial-gradient(ellipse 50% 50% at 30% 60%, rgba(232,0,26,0.2) 0%, transparent 50%),
+      linear-gradient(160deg, #060612 0%, #0a0820 40%, #10061a 100%);
+    animation: bgPulse 8s ease-in-out infinite alternate;
+    z-index: -1;
+}
+
+@keyframes bgPulse {
+    0%   { filter: brightness(1) saturate(1); }
+    50%  { filter: brightness(1.1) saturate(1.2); }
+    100% { filter: brightness(0.95) saturate(1.1); }
+}
+
+.decoracion1 {
+    position: absolute; inset: 0;
+    background-image:
+      repeating-linear-gradient(135deg, rgba(255,255,255,0.015) 0px, transparent 1px, transparent 60px, rgba(255,255,255,0.015) 61px),
+      repeating-linear-gradient(45deg, rgba(255,255,255,0.015) 0px, transparent 1px, transparent 60px, rgba(255,255,255,0.015) 61px);
+    animation: webMove 20s linear infinite;
+    z-index: -1;
+}
+
+@keyframes webMove {
+    from { background-position: 0 0; }
+    to   { background-position: 120px 120px; }
+}
+
+@keyframes sparkFloat {
+    0%   { bottom: -10px; opacity: 0; transform: translateX(0) scale(1); }
+    10%  { opacity: 1; }
+    90%  { opacity: 0.6; }
+    100% { bottom: 110%; opacity: 0; transform: translateX(40px) scale(0.3); }
+}
+
+.decoracion2 {
+    position: absolute;
+    bottom: 0; left: 0; right: 0;
+    height: 300px;
+    background: linear-gradient(to top, rgba(232,0,26,0.12) 0%, transparent 100%);
+    pointer-events: none;
+    z-index: -1;
+}
+
+.imagen-s {
+    height: 135vh;
+    width: 42vw;
+    left: 50%;
+    transform: translateX(137%);
+    margin-top: -120vh;
+    opacity: 0;
+    animation: aparecer 1.5s ease forwards;
+    animation-delay: 1s;
+}
+
+.texto1-s {
+    font-family: Spiderman;
+    color: #ffffff;
+    font-size: 10vh;
+    display: block;
+    margin-left: 5vw;
+    margin-top: -2vh;
+}
+
+.texto2-s {
+    font-family: Spiderman;
+    font-size: 14vh;
+    display: block;
+    margin-top: 2vh;
+    margin-left: 5vw;
+    background: linear-gradient(to right, red, blue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    animation: animate-gradient 5.5s linear infinite;
+    background-size: 200%;
+}
+
+.texto3-s {
+    color: #7676a7;
+    font-size: 3vh;
+    font-family: 'Barlow Condensed', sans-serif;
+    margin-left: 5vw;
+}
+
+.texto4-s {
+    color: #ff0000;
+    font-size: 2vh;
+    margin-left: 5vw;
+    display: block;
+    margin-top: 15vh;
+    letter-spacing: 0.2vh;
+    font-style: italic;
+    font-family: Pixel;
+}
+
+.texto5-s {
+    margin-left: 5vw;
+    display: block;
+    font-size: 2vh;
+    letter-spacing: 0.2vh;
+    color: #ffffff;
+    margin-right: 58%;
+}
+
+.cont-ab {
+    width: 20vw;
+    height: 2.5vh;
+    margin-left: 5vw;
+    margin-top: 3vh;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+}
+
+.genero {
+    height: 100%;
+    width: 50%;
+    color: #7676a7;
+    font-family: Pixel;
+    font-size: 1.5vh;
+    letter-spacing: 0.1vh;
+}
+
+.genero2 {
+    height: 100%;
+    width: 60%;
+    color: #ffffff;
+    font-family: Pixel;
+    font-size: 1.5vh;
+    letter-spacing: 0.1vh;
+    margin-top: -2vh;
+}
+
+.pegi2 {
+    height: 100%;
+    width: 20%;
+    color: #ffffff;
+    font-family: Pixel;
+    font-size: 1.5vh;
+    letter-spacing: 0.1vh;
+    margin-left: -2.7vw;
+    margin-top: -2vh;
+}
+
+
+@keyframes animate-gradient {
+    to {
+        background-position: 200%;
+    }
+}
+
+@font-face {
+    font-family: Spiderman;
+    src: url(/fonts/The\ Amazing\ Spider-Man.ttf);
+}
+
+@font-face {
+    font-family: Pixel;
+    src: url(/fonts/upheavtt.ttf);
+}
+
+@font-face {
+    font-family: BringRace;
+    src: url(/fonts/Bring\ Race.otf);
+}
+
+@font-face {
+    font-family: Rai;
+    src: url(/fonts/rainyhearts.ttf);
+}
+
+@font-face {
+    font-family: Minecraft;
+    src: url(/fonts/Minecraft.ttf);
+}
+
+.scroll-hint {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    z-index: 10;
+    animation: fadeIn 1.5s ease both;
+}
+
+.scroll-text {
+    font-size: 10px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.4);
+    font-family: Arial, sans-serif;
+}
+
+.mouse-icon {
+    width: 22px;
+    height: 34px;
+    border: 1.5px solid rgba(255,255,255,0.3);
+    border-radius: 11px;
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+}
+
+.mouse-dot {
+    width: 3px;
+    height: 6px;
+    background: #E8001A;
+    border-radius: 2px;
+    animation: mouseDot 2s ease-in-out infinite;
+}
+
+.scroll-line {
+    width: 1px;
+    height: 40px;
+    background: linear-gradient(to bottom, #E8001A, transparent);
+    animation: scrollPulse 2s ease-in-out infinite;
+}
+
+@keyframes mouseDot {
+    0%, 100% { transform: translateY(0); opacity: 1; }
+    50%       { transform: translateY(6px); opacity: 0.3; }
+}
+
+@keyframes scrollPulse {
+    0%, 100% { opacity: 1; transform: scaleY(1); }
+    50%       { opacity: 0.3; transform: scaleY(0.5); }
+}
+
+@keyframes fadIn {
+    from { opacity: 0; transform: translateX(-50%) translateY(10px); }
+    to   { opacity: 1; transform: translateX(-50%) translateY(0); }
+}
+
+@keyframes aparecer {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.sec2 {
+    width: 100vw;
+    height: 100vh;
+    background-color: #0d0d1a;
+    overflow: hidden;
+}
+
+.tr {
+    font-family: Spiderman;
+    color: #ffffff;
+    margin-top: 6vh;
+    margin-left: 5vw;
+    font-size: 5vh;
+}
+
+.color {
+    color: red;
+}
+
+.cont-videos {
+    width: 90%;
+    height: 70vh;
+    margin-left: 5vw;
+    margin-top: 5vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.con1 {
+    width: 100%;
+    height: 100%;
+    border: #ff0000 1px solid ;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+}
+
+.con2 {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+}
+
+.con3 {
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgb(255, 0, 0);
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    grid-template-rows: 8.25fr 1.75fr;
+}
+
+.subcon3-2 {
+    width: 100%;
+    height: 100%;
+    background: 
+        radial-gradient(circle at 80% 30%, rgba(26, 79, 255, 0.15) 0%, transparent 50%),
+        radial-gradient(circle at 20% 80%, rgba(232, 0, 26, 0.15) 0%, transparent 50%),
+        linear-gradient(135deg, #05050a 0%, #0a0820 50%, #080510 100%);
+}
+
+
+.titulo-video {
+    display: block;
+    color: #ff0000;
+    margin-left: 1vw;
+    margin-top: 0.5vh;
+    letter-spacing: 0.1vw;
+    font-size: 1vh;
+}
+
+.des-video {
+    color: #ffffff;
+    display: block;
+    margin-left: 1vw;
+    letter-spacing: 0.1vw;
+}
+
+.sec3 {
+    background: 
+        linear-gradient(to bottom, #0d0d1a 0%, rgba(13, 13, 26, 0.8) 20%, transparent 40%),
+        url('/imagenes/pym.jpg');
+    background-position: center 10%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 50vh;
+    filter: blur(0px);
+    overflow: hidden;
+}
+
+.con4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    width: 80%;
+    height: 40vh;
+    margin-left: 10vw;
+    margin-top: 15vh;
+}
+
+.con4-1 {
+   font-size: 3vw;
+   color: #ffffff;
+   letter-spacing: 0.1vw;
+   font-family: Spiderman;
+   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.con4-2 {
+    color: #dfdede;
+    font-size: 1vw;
+    letter-spacing: 0.1vw;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+@font-face {
+    font-family: Inl;
+    src: url(/fonts/Inlanders\ Demo.otf);
+}
+
+.sec4 {
+    width: 100vw;
+    height: 100vh;
+    background-color: #131313;
+    overflow: hidden;
+}
+
+.con5 {
+    width: 40%;
+    height: 20vh;
+    margin-left: 30%;
+    margin-top: 5vh;
+    color: #ffffff;
+    font-family: Inl;
+    font-size: 2vw;
+    letter-spacing: 0.1vw;
+    text-align: center;
+}
+
+.con6 {
+    width: 75%;
+    height: 70vh;
+    margin: 0 auto; 
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 35px;
+}
+
+.con6-1 {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 50% 50%; 
+}
+
+
+.con6-imagen1 {
+    width: 100%;
+    height: 100%;
+    background-image: url(/imagenes/marvels-spiderman-2-key-features-carousel-symbiote-en-05oct23.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+
+
+.con6-imagen2 {
+    width: 100%;
+    height: 100%;
+    background-image: url(/imagenes/marvels-spiderman-2-key-features-carousel-two-spidermen-en-03oct23.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.con6-imagen3 {
+    width: 100%;
+    height: 100%;
+    background-image: url(/imagenes/marvels-spiderman-2-key-features-carousel-venom-en-03oct23.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.con6-imagen4 {
+    width: 100%;
+    height: 100%;
+    background-image: url(/imagenes/marvels-spiderman-2-key-features-carousel-coney-island-en-03oct23.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.con6-imagen1:hover {
+    border: 2px solid rgb(255, 0, 0);
+    transform: scale(1.05);
+}
+
+.con6-imagen2:hover {
+    border: 2px solid rgb(255, 0, 0);
+    transform: scale(1.05);
+}
+
+.con6-imagen3:hover {
+    border: 2px solid rgb(255, 0, 0);
+    transform: scale(1.05);
+}
+
+.con6-imagen4:hover {
+    border: 2px solid rgb(255, 0, 0);
+    transform: scale(1.05);
+}
+.con6-1-2 {
+    width: 100%;
+    height: 100%; 
+    padding-top: 15px; 
+}
+
+.tx2 {
+    display: block;
+    color: #ffffff;
+    letter-spacing: 0.1vw;
+    margin-top: 2vh;
+}
+
+
+.tx1 {
+    display: block;
+    color: #dddddd;
+    font-size: 2.5vh; 
+    letter-spacing: 0.1vw;
+    margin-top: 5vh;
+}
+
+.sec5 {
+    width: 100vw;
+    height: 92vh;
+    background-image: url(/imagenes/spidermens.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.con7 {
+    height: 5vh;
+    width: 40%;
+    margin-top: 33vh;
+    margin-left: 35%;
+    color: #ffffff;
+    font-family: Spiderman;
+    font-size: 1.8vw;
+
+}
+
+.linea {
+    width: 30%;
+    height: 2px;
+    background-color: #ff0000;
+    margin-left: 33%;
+    margin-top: 5vh;
+}
+
+.con8 {
+    height: 5vh;
+    width: 40%;
+    margin-left: 32%;
+    margin-top: 6vh;
+    color: #ffffff;
+    font-family: Spiderman;
+    font-size: 1.8vw;
+
+}
+
+.video-thumb {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.video-thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.video-thumb:hover img {
+    transform: scale(1.05);
+}
+
+
+.video-thumb iframe {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+@media (max-width: 1024px) {
+    .texto1-s { font-size: 7vh; margin-top: -5vh; }
+    .texto2-s { font-size: 10vh; }
+    .texto4-s { margin-top: 15vh; }
+
+    .scroll-hint {
+        height: 25vh;
+        transform: translateY(45%);
+        left: 45%;
+    }
+
+    .scroll-text {
+        font-size: 0.75vw;
+    }
+
+    .scroll-line {
+        height: 10vh;
+    }
+
+    .sec2 {
+        height: auto;
+    }
+
+    .imagen-s {
+        width: 50vw;
+        height: 100vh;
+        transform: translateX(100%);
+        margin-top: -85vh;
+    }
+
+    .con1 {
+        height: 70vh;
+    }
+
+    .con2 {
+        height: 70vh;
+    }
+
+    .des-video {
+        font-size: 1vh;
+        margin-top: 0.75vh;
+    }
+
+    .sec3 {
+        height: 75vh;
+    }
+
+    .sec4 {
+        height: 105vh;
+    }
+    .con4 { margin-top: 10vh; }
+    .con4-1 { font-size: 4vw; }
+    .con4-2 { font-size: 1.5vw; }
+
+    .tx2 {
+        font-size: 0.8vw;
+    }
+
+    .tx1 {
+        font-size: 1vw;
+    }
+
+    .con6 { grid-template-columns: repeat(4, 1fr); }
+    .con6-1 { grid-template-rows: 50% 50%; }
+
+    .con7 { font-size: 2vw; margin-top: 25vh; margin-left: 72vh; }
+    .con8 { font-size: 1.8vw; margin-left: 67vh; }
+}
+
+@media (max-width: 768px) {
+    .sec { height: auto; min-height: 100vh; overflow: visible; }
+    .sec2 { height: auto; min-height: 100vh; overflow: visible; }
+    .sec4 { height: auto; overflow: visible; }
+
+    .texto1-s { 
+        font-size: 5vh;
+    }
+    .texto2-s { font-size: 7vh; }
+    .texto3-s { font-size: 2vh; }
+    .texto4-s { margin-top: 40vh; font-size: 1.5vh; }
+    .texto5-s { margin-right: 10%; font-size: 1.5vh; }
+
+    .imagen-s {
+        position: absolute;
+        width: 80vw;
+        height: 70vh;
+        left: 10%;
+        transform: none;
+        margin-top: -65vh;
+        opacity: 0.3;
+        z-index: -1;
+    }
+
+    .tr { font-size: 3.5vh; }
+
+    .cont-videos {
+        grid-template-columns: 1fr;
+        height: auto;
+        gap: 15px;
+    }
+
+    .con1 { height: 35vh; }
+
+    .con2 {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        height: 70vh;
+    }
+
+    .con3 { height: 20vh; }
+
+    .sec3 { height: 40vh; }
+    .con4 {
+        grid-template-columns: 1fr;
+        margin-top: 8vh;
+        height: auto;
+    }
+    .con4-1 { font-size: 5vw; }
+    .con4-2 { font-size: 2vw; }
+
+    .con5 { width: 80%; margin-left: 10%; font-size: 3vw; }
+
+    .con6 {
+        grid-template-columns: repeat(2, 1fr);
+        width: 90%;
+        gap: 20px;
+        height: auto;
+    }
+    .con6-1 { grid-template-rows: 200px auto; }
+
+    .sec5 { height: 60vh; }
+    .con7 { font-size: 3.5vw; margin-top: 20vh; margin-left: 25%; width: 50%; }
+    .con8 { font-size: 3.5vw; margin-left: 25%; width: 50%; }
+    .linea { margin-left: 25%; width: 50%; }
+
+    .cont-ab { width: 40vw; }
+}
+
+@media (max-width: 480px) {
+    .sec { height: auto; min-height: 100vh; }
+    .sec2 { height: auto; }
+    .sec4 { height: auto; }
+
+    .texto1-s { font-size: 4vh; }
+    .texto2-s { font-size: 6vh; }
+    .texto3-s { font-size: 1.8vh; }
+    .texto4-s { margin-top: 50vh; font-size: 1.3vh; margin-top: 12vh; margin-bottom: 2vh; }
+    .texto5-s { margin-right: 5%; font-size: 1.3vh; }
+
+    .imagen-s {
+        position: absolute;
+        width: 90vw;
+        height: 60vh;
+        left: 10%;
+        transform: none;
+        margin-top: -20vh;
+        opacity: 0.2;
+        z-index: -1;
+    }
+
+    .pegi2 {
+        margin-left: -5.3vh;
+    }
+
+    .tr { font-size: 3vh; margin-top: 4vh; }
+
+    .cont-videos {
+        grid-template-columns: 1fr;
+        height: auto;
+        width: 95%;
+        margin-left: 2.5%;
+        gap: 30px;
+    }
+
+    .con1 { height: 30vh; }
+    .con2 {
+        grid-template-columns: 1fr 1fr;
+        height: 55vh;
+    }
+    .con3 { height: 25vh; }
+
+    .titulo-video { font-size: 0.8vh; }
+    .des-video { font-size: 0.9vh; margin-top: 0.5vh; }
+
+    .sec3 { height: 48vh; }
+    .con4 {
+        grid-template-columns: 1fr;
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 5vh;
+        height: auto;
+    }
+    .con4-1 { font-size: 4.5vw; margin-top: 12vh; }
+    .con4-2 { font-size: 3vw; }
+
+    .con5 { width: 90%; margin-left: 5%; font-size: 4vw; height: auto; }
+
+    .con6 {
+        grid-template-columns: repeat(1, 1fr);
+        width: 90%;
+        gap: 15px;
+        height: auto;
+        margin-top: 5vh;
+    }
+    .con6-1 { grid-template-rows: 390px auto; }
+
+    .tx1 { margin-top: 3vh; font-size: 2vh; }
+    .tx2 { margin-top: 1vh; font-size: 1.5vh; margin-bottom: 2vh;}
+
+    .sec5 { height: 60vh; }
+    .con7 { font-size: 4vw; margin-top: 15vh; margin-left: 11%; width: 70%; text-align: center; }
+    .con8 { font-size: 4vw; margin-left: 11%; width: 70%; text-align: center; margin-top: 2vh; }
+    .linea { margin-left: 15%; width: 60%; margin-top: 0vh; }
+
+    .cont-ab { width: 60vw; }
+    .scroll-hint { display: none; }
+}
