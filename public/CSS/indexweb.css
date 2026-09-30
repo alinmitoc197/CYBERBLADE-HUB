@@ -817,7 +817,7 @@ body {
 }
 
 .imagenflecha {
-    background-image: url(/imagenes/flechacontacto.png);
+    background-image: url(./imagenes/flechacontacto.png);
     background-repeat: no-repeat;
     background-size: contain;    
     background-position: center; 
