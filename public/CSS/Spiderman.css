@@ -160,27 +160,27 @@
 
 @font-face {
     font-family: Spiderman;
-    src: url(/fonts/The\ Amazing\ Spider-Man.ttf);
+    src: url(../fonts/The\ Amazing\ Spider-Man.ttf);
 }
 
 @font-face {
     font-family: Pixel;
-    src: url(/fonts/upheavtt.ttf);
+    src: url(../fonts/upheavtt.ttf);
 }
 
 @font-face {
     font-family: BringRace;
-    src: url(/fonts/Bring\ Race.otf);
+    src: url(../fonts/Bring\ Race.otf);
 }
 
 @font-face {
     font-family: Rai;
-    src: url(/fonts/rainyhearts.ttf);
+    src: url(../fonts/rainyhearts.ttf);
 }
 
 @font-face {
     font-family: Minecraft;
-    src: url(/fonts/Minecraft.ttf);
+    src: url(../fonts/Minecraft.ttf);
 }
 
 .scroll-hint {
@@ -339,7 +339,7 @@
 .sec3 {
     background: 
         linear-gradient(to bottom, #0d0d1a 0%, rgba(13, 13, 26, 0.8) 20%, transparent 40%),
-        url('/imagenes/pym.jpg');
+        url('../imagenes/pym.jpg');
     background-position: center 10%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -376,7 +376,7 @@
 
 @font-face {
     font-family: Inl;
-    src: url(/fonts/Inlanders\ Demo.otf);
+    src: url(../fonts/Inlanders\ Demo.otf);
 }
 
 .sec4 {
@@ -418,7 +418,7 @@
 .con6-imagen1 {
     width: 100%;
     height: 100%;
-    background-image: url(/imagenes/marvels-spiderman-2-key-features-carousel-symbiote-en-05oct23.webp);
+    background-image: url(../imagenes/marvels-spiderman-2-key-features-carousel-symbiote-en-05oct23.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -430,7 +430,7 @@
 .con6-imagen2 {
     width: 100%;
     height: 100%;
-    background-image: url(/imagenes/marvels-spiderman-2-key-features-carousel-two-spidermen-en-03oct23.webp);
+    background-image: url(../imagenes/marvels-spiderman-2-key-features-carousel-two-spidermen-en-03oct23.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -440,7 +440,7 @@
 .con6-imagen3 {
     width: 100%;
     height: 100%;
-    background-image: url(/imagenes/marvels-spiderman-2-key-features-carousel-venom-en-03oct23.webp);
+    background-image: url(../imagenes/marvels-spiderman-2-key-features-carousel-venom-en-03oct23.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -450,7 +450,7 @@
 .con6-imagen4 {
     width: 100%;
     height: 100%;
-    background-image: url(/imagenes/marvels-spiderman-2-key-features-carousel-coney-island-en-03oct23.webp);
+    background-image: url(../imagenes/marvels-spiderman-2-key-features-carousel-coney-island-en-03oct23.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -501,7 +501,7 @@
 .sec5 {
     width: 100vw;
     height: 92vh;
-    background-image: url(/imagenes/spidermens.jpg);
+    background-image: url(../imagenes/spidermens.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

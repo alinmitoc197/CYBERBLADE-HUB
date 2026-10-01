@@ -93,12 +93,12 @@ body {
 
 @font-face {
     font-family: Minecraft;
-    src: url(/fonts/Minecraft.ttf);
+    src: url(../fonts/Minecraft.ttf);
 }
 
 @font-face {
     font-family: BringRace;
-    src: url(/fonts/Bring\ Race.otf);
+    src: url(../fonts/Bring\ Race.otf);
 }
 
 @media (max-width: 1024px) {

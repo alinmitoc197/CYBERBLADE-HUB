@@ -3,7 +3,7 @@ body {
 }
 
 .imagen-arriba{
-    background-image: url(/imagenes/forzaportada.jpg);
+    background-image: url(../imagenes/forzaportada.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -25,17 +25,17 @@ body {
 
 @font-face {
     font-family: Pixel;
-    src: url(/fonts/Pixellari.ttf);
+    src: url(../fonts/Pixellari.ttf);
 }
 
 @font-face {
     font-family: BringRace;
-    src: url(/fonts/Bring\ Race.otf);
+    src: url(../fonts/Bring\ Race.otf);
 }
 
 @font-face {
     font-family: Minecraft;
-    src: url(/fonts/Minecraft.ttf);
+    src: url(../fonts/Minecraft.ttf);
 }
 
 .text1 {
@@ -85,7 +85,7 @@ body {
 .imagen-juego1 {
     width: 100%;
     height: 100%;
-    background-image: url(/imagenes/forza.jpg);
+    background-image: url(../imagenes/forza.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -94,7 +94,7 @@ body {
 .imagen-juego2 {
     width: 100%;
     height: 100%;
-    background-image: url(/imagenes/fifa.jpg);
+    background-image: url(../imagenes/fifa.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -103,7 +103,7 @@ body {
 .imagen-juego3 {
     width: 100%;
     height: 100%;
-    background-image: url(/imagenes/2k.jpg);
+    background-image: url(../imagenes/2k.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -112,7 +112,7 @@ body {
 .imagen-juego4 {
     width: 100%;
     height: 100%;
-    background-image: url(/imagenes/gran-turismo.jpg);
+    background-image: url(../imagenes/gran-turismo.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -121,7 +121,7 @@ body {
 .imagen-juego5 {
     width: 100%;
     height: 100%;
-    background-image: url(/imagenes/mariokart.jpg);
+    background-image: url(../imagenes/mariokart.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -130,7 +130,7 @@ body {
 .imagen-juego6 {
     width: 100%;
     height: 100%;
-    background-image: url(/imagenes/f1.avif);
+    background-image: url(../imagenes/f1.avif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -139,7 +139,7 @@ body {
 .imagen-juego7 {
     width: 100%;
     height: 100%;
-    background-image: url(/imagenes/rocketleague.jpg);
+    background-image: url(../imagenes/rocketleague.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -148,7 +148,7 @@ body {
 .imagen-juego8 {
     width: 100%;
     height: 100%;
-    background-image: url(/imagenes/assetto_corsa_evo-5926274.jpg);
+    background-image: url(../imagenes/assetto_corsa_evo-5926274.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

@@ -1,5 +1,5 @@
 .section1 {
-    background-image: url(/imagenes/Paisaje\ cibernético\ japonés\ al\ atardecer.png);
+    background-image: url(../imagenes/Paisaje\ cibernético\ japonés\ al\ atardecer.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -204,7 +204,7 @@ input::placeholder, textarea::placeholder {
 }
 
 .imagenflecha {
-    background-image: url(/imagenes/flechacontacto.png);
+    background-image: url(../imagenes/flechacontacto.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 30%;
@@ -312,23 +312,23 @@ input::placeholder, textarea::placeholder {
 
 @font-face {
     font-family: Minecraft; 
-    src: url(/fonts/Minecraft.ttf); 
+    src: url(../fonts/Minecraft.ttf); 
 }
 
 @font-face {
     font-family: BringRace;
-    src: url(/fonts/Bring\ Race.otf);
+    src: url(../fonts/Bring\ Race.otf);
 }
 
 
 @font-face {
     font-family: OB;
-    src: url(/fonts/04B_30__.TTF);
+    src: url(../fonts/04B_30__.TTF);
 }
 
 @font-face {
     font-family: Uph;
-    src: url(/fonts/upheavtt.ttf);
+    src: url(../fonts/upheavtt.ttf);
 }
 
 @media (max-width: 1024px) {

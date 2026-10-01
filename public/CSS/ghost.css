@@ -141,12 +141,12 @@
 
 @font-face {
     font-family: Pixel;
-    src: url(/fonts/Pixellari.ttf);
+    src: url(../fonts/Pixellari.ttf);
 }
 
 @font-face {
     font-family: Bring;
-    src: url(/fonts/Bring\ Race.otf);
+    src: url(../fonts/Bring\ Race.otf);
 }
 
 .cont-ab {
@@ -347,7 +347,7 @@
 .sec3 {
     background: 
         linear-gradient(to bottom, #1a190d 0%, rgba(212, 175, 55, 0.35) 20%, transparent 40%),
-        url('/imagenes/jinsakaiii.jpg');
+        url('../imagenes/jinsakaiii.jpg');
     background-position: center 10%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -392,7 +392,7 @@
 .sec4 {
     width: 100%;
     height: 100vh;
-    background-image: url(/imagenes/fondojapones.jpg);
+    background-image: url(../imagenes/fondojapones.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -412,7 +412,7 @@
 
 @font-face {
     font-family: Inl;
-    src: url(/fonts/Inlanders\ Demo.otf);
+    src: url(../fonts/Inlanders\ Demo.otf);
 }
 
 .con6 {
@@ -435,7 +435,7 @@
 .con6-imagen1 {
     width: 100%;
     height: 100%;
-    background-image: url(/imagenes/ghost-of-tsushima-jin-column-image-02-ps4-en-27apr20.webp);
+    background-image: url(../imagenes/ghost-of-tsushima-jin-column-image-02-ps4-en-27apr20.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -445,7 +445,7 @@
 .con6-imagen2 {
     width: 100%;
     height: 100%;
-    background-image: url(/imagenes/ghost-of-tsushima-jin-column-image-01-ps4-en-27apr20.webp);
+    background-image: url(../imagenes/ghost-of-tsushima-jin-column-image-01-ps4-en-27apr20.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -455,7 +455,7 @@
 .con6-imagen3 {
     width: 100%;
     height: 100%;
-    background-image: url(/imagenes/ghost-of-tsushima-khan-column-image-01-ps4-en-27apr20.webp);
+    background-image: url(../imagenes/ghost-of-tsushima-khan-column-image-01-ps4-en-27apr20.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -497,7 +497,7 @@
 .sec5 {
     width: 100vw;
     height: 92vh;
-    background-image: url(/imagenes/jin-fondo.jpg);
+    background-image: url(../imagenes/jin-fondo.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

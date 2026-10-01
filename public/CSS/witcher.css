@@ -178,17 +178,17 @@
 
 @font-face {
     font-family: Western;
-    src: url(/fonts/Go2OldWestern-Bold.ttf);
+    src: url(../fonts/Go2OldWestern-Bold.ttf);
 }
 
 @font-face {
     font-family: Pixel;
-    src: url(/fonts/Pixellari.ttf);
+    src: url(../fonts/Pixellari.ttf);
 }
 
 @font-face {
     font-family: Witcher;
-    src: url(/fonts/Black\ Witcher.otf);
+    src: url(../fonts/Black\ Witcher.otf);
 }
 
 .cont-ab {
@@ -399,7 +399,7 @@
     width: 100%;
     background: 
         linear-gradient(to bottom, #0d161a 0%, rgba(212, 170, 55, 0.35) 20%, transparent 40%),
-        url('/imagenes/fondo-wit.jpg');
+        url('../imagenes/fondo-wit.jpg');
     background-position: center 10%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -494,7 +494,7 @@
 .con6-imagen1 {
     width: 100%;
     height: 100%;
-    background-image: url(/imagenes/TW3NG_PressPreviews_PS5_Combat_RGB_clean.webp);
+    background-image: url(../imagenes/TW3NG_PressPreviews_PS5_Combat_RGB_clean.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -504,7 +504,7 @@
 .con6-imagen2 {
     width: 100%;
     height: 100%;
-    background-image: url(/imagenes/The_Witcher_3_Wild_Hunt_miles_to_go_before_he_sleeps_RGB.webp);
+    background-image: url(../imagenes/The_Witcher_3_Wild_Hunt_miles_to_go_before_he_sleeps_RGB.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -514,7 +514,7 @@
 .con6-imagen3 {
     width: 100%;
     height: 100%;
-    background-image: url(/imagenes/the-witcher-3-screen-09-ps4-all-07sep15.webp);
+    background-image: url(../imagenes/the-witcher-3-screen-09-ps4-all-07sep15.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -567,7 +567,7 @@
 .sec5 {
     width: 100%;
     height: 92vh;
-    background-image: url(/imagenes/1507979-3840x2160-desktop-4k-role-playing-game-wallpaper-photo.jpg);
+    background-image: url(../imagenes/1507979-3840x2160-desktop-4k-role-playing-game-wallpaper-photo.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

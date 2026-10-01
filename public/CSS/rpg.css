@@ -3,7 +3,7 @@ body {
 }
 
 .imagen-arriba {
-    background-image: url(/imagenes/fondorpg.jpg);
+    background-image: url(../imagenes/fondorpg.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% 90%;
@@ -25,17 +25,17 @@ body {
 
 @font-face {
     font-family: Pixel;
-    src: url(/fonts/Pixellari.ttf);
+    src: url(../fonts/Pixellari.ttf);
 }
 
 @font-face {
     font-family: BringRace;
-    src: url(/fonts/Bring\ Race.otf);
+    src: url(../fonts/Bring\ Race.otf);
 }
 
 @font-face {
     font-family: Minecraft;
-    src: url(/fonts/Minecraft.ttf);
+    src: url(../fonts/Minecraft.ttf);
 }
 
 .text1 {
@@ -86,7 +86,7 @@ body {
 .imagen-juego1 {
     width: 100%;
     height: 100%;
-    background-image: url(/imagenes/baldurgate3.jpg);
+    background-image: url(../imagenes/baldurgate3.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -95,7 +95,7 @@ body {
 .imagen-juego2 {
     width: 100%;
     height: 100%;
-    background-image: url(/imagenes/eldenring.jpg);
+    background-image: url(../imagenes/eldenring.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -104,7 +104,7 @@ body {
 .imagen-juego3 {
     width: 100%;
     height: 100%;
-    background-image: url(/imagenes/thewitcher.jpg);
+    background-image: url(../imagenes/thewitcher.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -113,7 +113,7 @@ body {
 .imagen-juego4 {
     width: 100%;
     height: 100%;
-    background-image: url(/imagenes/finalfantasy7-1.png);
+    background-image: url(../imagenes/finalfantasy7-1.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -122,7 +122,7 @@ body {
 .imagen-juego5 {
     width: 100%;
     height: 100%;
-    background-image: url(/imagenes/Kingdom_Come_Deliverance_II.jpg);
+    background-image: url(../imagenes/Kingdom_Come_Deliverance_II.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -131,7 +131,7 @@ body {
 .imagen-juego6 {
     width: 100%;
     height: 100%;
-    background-image: url(/imagenes/fable.jpg);
+    background-image: url(../imagenes/fable.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -140,7 +140,7 @@ body {
 .imagen-juego7 {
     width: 100%;
     height: 100%;
-    background-image: url(/imagenes/cyberpunk2077.jpg);
+    background-image: url(../imagenes/cyberpunk2077.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -149,7 +149,7 @@ body {
 .imagen-juego8 {
     width: 100%;
     height: 100%;
-    background-image: url(/imagenes/skyrim.jpg);
+    background-image: url(../imagenes/skyrim.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

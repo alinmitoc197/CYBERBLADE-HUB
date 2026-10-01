@@ -137,12 +137,12 @@
 
 @font-face {
     font-family: gta;
-    src: url(/fonts/Pricedown\ Bl.otf);
+    src: url(../fonts/Pricedown\ Bl.otf);
 }
 
 @font-face {
     font-family: Pixel;
-    src: url(/fonts/Pixellari.ttf);
+    src: url(../fonts/Pixellari.ttf);
 }
 
 .cont-ab {
@@ -353,7 +353,7 @@
     width: 100%;
     background: 
         linear-gradient(to bottom, #0d161a 0%, rgba(14, 85, 0, 0.35) 20%, transparent 40%),
-        url('/imagenes/lostres.jpg');
+        url('../imagenes/lostres.jpg');
     background-position: center 10%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -437,7 +437,7 @@
 .con6-imagen1 {
     width: 100%;
     height: 100%;
-    background-image: url(/imagenes/GTAV-product-gen9-01-en-3mar22.webp);
+    background-image: url(../imagenes/GTAV-product-gen9-01-en-3mar22.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -449,7 +449,7 @@
 .con6-imagen2 {
     width: 100%;
     height: 100%;
-    background-image: url(/imagenes/GTAO-product-master-01-en-3mar22.webp);
+    background-image: url(../imagenes/GTAO-product-master-01-en-3mar22.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -493,7 +493,7 @@
 .sec5 {
     width: 100%;
     height: 92vh;
-    background-image: url(/imagenes/fondogta.jpg);
+    background-image: url(../imagenes/fondogta.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

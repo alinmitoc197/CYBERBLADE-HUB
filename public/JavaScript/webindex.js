@@ -34,11 +34,6 @@ document.addEventListener("DOMContentLoaded", () => {
                 if (archivoDestino) {
                     cargarPagina(archivoDestino);
                 }
-
-                if (window.innerWidth <= 1024 && menu && hamburguesa) {
-                        menu.classList.remove('abierto');
-                        hamburguesa.classList.remove('activo');
-                    }
             });
         });
     }

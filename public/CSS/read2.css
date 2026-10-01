@@ -178,12 +178,12 @@
 
 @font-face {
     font-family: Western;
-    src: url(/fonts/Go2OldWestern-Bold.ttf);
+    src: url(../fonts/Go2OldWestern-Bold.ttf);
 }
 
 @font-face {
     font-family: Pixel;
-    src: url(/fonts/Pixellari.ttf);
+    src: url(../fonts/Pixellari.ttf);
 }
 
 .cont-ab {
@@ -394,7 +394,7 @@
     width: 100%;
     background: 
         linear-gradient(to bottom, #1a190d 0%, rgba(212, 175, 55, 0.35) 20%, transparent 40%),
-        url('/imagenes/reddeadfondi.jpg');
+        url('../imagenes/reddeadfondi.jpg');
     background-position: center 10%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -437,7 +437,7 @@
 .sec4 {
     height: 110vh;
     width: 100%;
-    background-image: url(/imagenes/fondorojo.webp);
+    background-image: url(../imagenes/fondorojo.webp);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -489,7 +489,7 @@
 .con6-imagen1 {
     width: 100%;
     height: 100%;
-    background-image: url(/imagenes/naturalist.jpg);
+    background-image: url(../imagenes/naturalist.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -501,7 +501,7 @@
 .con6-imagen2 {
     width: 100%;
     height: 100%;
-    background-image: url(/imagenes/red-dead-online-sep-frontier-pursuit-screen-08-ps4-en-18sep19.webp);
+    background-image: url(../imagenes/red-dead-online-sep-frontier-pursuit-screen-08-ps4-en-18sep19.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -511,7 +511,7 @@
 .con6-imagen3 {
     width: 100%;
     height: 100%;
-    background-image: url(/imagenes/red-dead-online-sep-frontier-pursuit-screen-12-ps4-en-18sep19.webp);
+    background-image: url(../imagenes/red-dead-online-sep-frontier-pursuit-screen-12-ps4-en-18sep19.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -521,7 +521,7 @@
 .con6-imagen4 {
     width: 100%;
     height: 100%;
-    background-image: url(/imagenes/red-dead-redemption-2-image-block-moonshiner-en-30jul20.webp);
+    background-image: url(../imagenes/red-dead-redemption-2-image-block-moonshiner-en-30jul20.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -574,7 +574,7 @@
 .sec5 {
     width: 100%;
     height: 92vh;
-    background-image: url(/imagenes/fondo-ar.jpg);
+    background-image: url(../imagenes/fondo-ar.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

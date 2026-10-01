@@ -183,12 +183,12 @@
 
 @font-face {
     font-family: Bring;
-    src: url(/fonts/Bring\ Race.otf);
+    src: url(../fonts/Bring\ Race.otf);
 }
 
 @font-face {
     font-family: Pixel;
-    src: url(/fonts/Pixellari.ttf);
+    src: url(../fonts/Pixellari.ttf);
 }
 
 .imagen-kr {
@@ -399,13 +399,13 @@
 
 @font-face {
     font-family: Lontara;
-    src: url(/fonts/Lontara.ttf);
+    src: url(../fonts/Lontara.ttf);
 }
 
 .sec3 {
     background: 
         linear-gradient(to bottom, #0d161a 0%, rgba(55, 71, 212, 0.35) 20%, transparent 40%),
-        url('/imagenes/fondo-kr-dr.jpg');
+        url('../imagenes/fondo-kr-dr.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -450,7 +450,7 @@
 .sec4 {
     width: 100%;
     height: 75vh;
-    background-image: url(/imagenes/fondo-nordico.png);
+    background-image: url(../imagenes/fondo-nordico.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -488,7 +488,7 @@
 .con6-imagen1 {
     width: 100%;
     height: 100%;
-    background-image: url(/imagenes/god-of-war-ragnarok-watermark-screenshot-01-en-08sep21.webp);
+    background-image: url(../imagenes/god-of-war-ragnarok-watermark-screenshot-01-en-08sep21.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -498,7 +498,7 @@
 .con6-imagen2 {
     width: 100%;
     height: 100%;
-    background-image: url(/imagenes/god-of-war-ragnarok-watermark-screenshot-12-en-08sep21.webp);
+    background-image: url(../imagenes/god-of-war-ragnarok-watermark-screenshot-12-en-08sep21.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -508,7 +508,7 @@
 .con6-imagen3 {
     width: 100%;
     height: 100%;
-    background-image: url(/imagenes/god-of-war-ragnarok-watermark-screenshot-08-en-08sep21.webp);
+    background-image: url(../imagenes/god-of-war-ragnarok-watermark-screenshot-08-en-08sep21.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -546,7 +546,7 @@
 .sec5 {
     width: 100vw;
     height: 92vh;
-    background-image: url(/imagenes/fondo-libro.png);
+    background-image: url(../imagenes/fondo-libro.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
