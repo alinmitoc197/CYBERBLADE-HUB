@@ -3,7 +3,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: 105vh;
     width: 100vw;
     overflow: hidden;
     position: relative;
@@ -41,7 +41,7 @@ form {
     box-shadow: 0 0 2vh rgba(255, 0, 0, 0.8);
     border-radius: 2vh;
     text-align: center;
-    height: 85vh;
+    height: 87vh;
     width: 67vw;
     max-width: 500px;
     background: linear-gradient(to bottom, #0d0a0f 0%, #460303 30%, #5a0010 60%, #000000 100%);
@@ -94,8 +94,8 @@ input::placeholder, textarea::placeholder {
 }
 
 .form-txt {
-    margin-top: 2vh;
-    margin-bottom: 3vh;
+    margin-top: 1vh;
+    margin-left: 6vh;
     display: flex;
     justify-content: space-between;
     text-align: center;

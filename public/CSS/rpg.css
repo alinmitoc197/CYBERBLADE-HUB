@@ -72,7 +72,7 @@ body {
 
 .juegos {
     width: 20vw;
-    height: 20vh;
+    height: 22vh;
     border: 2px #cc0022 solid;
     display: grid;
     grid-template-columns: 30% 70%;
@@ -165,7 +165,7 @@ body {
 .titulo {
     color: rgb(221, 180, 68);
     font-family: Minecraft;
-    font-size: 1.5vh;
+    font-size: 1.3vh;
     text-align: center;
     justify-content: center;
 }
@@ -173,7 +173,7 @@ body {
 .texto-juego {
     font-family: Pixel;
     color: rgba(255, 255, 255, 0.596);
-    font-size: 1.2vh;
+    font-size: 1vh;
 }
 
 hr {

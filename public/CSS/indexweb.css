@@ -205,7 +205,7 @@ body {
 
 .hub {
     display: flex;
-    width: 30vw;
+    width: 39vw;
     height: 3.5vh;
     border-radius: 3px;
     border: 2px solid #ff0033;
@@ -213,7 +213,7 @@ body {
     text-align: center;
     justify-content: center;
     align-items: center;
-    margin-left: 33vw;
+    margin-left: 28vw;
     margin-top: 10vh;
     font-family: BringRace;
     font-size: 2vh;
@@ -696,7 +696,7 @@ body {
 }
 
 .goty-ama {
-    width: 100%;
+    width: 9vw;
     height: 100%;
     display: flex;
     align-items: center;
@@ -712,7 +712,7 @@ body {
     align-items: center;
     color: #ff0000;
     font-family: Pixel;
-    margin-left: 10%;
+    margin-left: 40%;
 }
 
 .goty-nom {
@@ -740,7 +740,7 @@ body {
 
 .goty-con2 {
     margin-left: 2vw;
-    margin-top: 5vh;
+    margin-top: 9vh;
     width: 25%;
     height: 3vh;
     display: grid;
@@ -762,6 +762,7 @@ body {
     border: #cc0022 1px solid;
     font-family: Pixel;
     background-color: #5a0010;
+    width: 18vw;
 }
 
 .titulopagina {
@@ -1022,6 +1023,10 @@ body {
         transition: max-height 0.3s ease, opacity 0.3s ease, visibility 0.3s ease;
         border-radius: 0;
         text-align: center;
+    }
+
+    .hub {
+        width: 40vw;
     }
 
     .section2 {
